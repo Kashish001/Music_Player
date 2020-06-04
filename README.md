@@ -24,3 +24,7 @@ Features :
 ScreenShots : 
 
 ![SS1](https://user-images.githubusercontent.com/43697885/83709348-2a9f8000-a5d3-11ea-89b6-6838e8bce1c6.jpg)
+
+
+![SS2](https://user-images.githubusercontent.com/43697885/83709613-c6c98700-a5d3-11ea-8feb-92aa0c078c71.jpg)
+
