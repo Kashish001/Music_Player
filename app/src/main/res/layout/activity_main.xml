@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+    
+    <Button
+        android:id="@+id/play"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/play"
+        android:layout_marginTop="560dp"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="80dp"
+        android:layout_height="110dp"
+        android:layout_alignBottom="@id/play"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginTop="560dp"
+        android:layout_toStartOf="@id/play"
+        android:layout_toLeftOf="@id/play"
+        android:background="@drawable/real_back"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="80dp"
+        android:layout_height="110dp"
+        android:layout_alignEnd="@id/play"
+        android:layout_alignRight="@id/play"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="-87dp"
+        android:layout_marginRight="-87dp"
+        android:background="@drawable/real_next"
+        tools:ignore="InvalidId" />
+
+    <SeekBar
+        android:id="@+id/songPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:padding="10dp"
+        android:thumbTint="@android:color/white"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0_11"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="530dp"
+        tools:ignore="RelativeOverlap" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_11"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="366dp"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>
