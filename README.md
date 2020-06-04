@@ -20,3 +20,7 @@ Features :
 3. Album Arts Visible
 4. Song Artist Visible
 5. Song Title Visible
+
+ScreenShots : 
+
+![SS1](https://user-images.githubusercontent.com/43697885/83709348-2a9f8000-a5d3-11ea-89b6-6838e8bce1c6.jpg)
